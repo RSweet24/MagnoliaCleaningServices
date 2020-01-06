@@ -1,0 +1,29 @@
+.navbar {
+    background-color: lightsteelblue;
+    padding: 0;
+    
+}
+
+.navbar-nav {
+    width: 100vw;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+a  {
+    color: black !important;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: space-around;
+}
+
+.logo {
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+
+}
