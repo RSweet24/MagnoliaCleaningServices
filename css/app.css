@@ -1,47 +1,69 @@
 .body {
-    overflow: hidden;
+  overflow: hidden;
 }
 
 .navbar {
-    background-color: lightsteelblue;
-    padding: 0;
-    
+  background-color: lightsteelblue;
+  padding: 0;
 }
 
 .navbar-brand {
-    display: flex;
-    justify-content: flex-end;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .navbar-nav {
-    width: 100vw;
-    justify-content: space-between;
-    flex-direction: row;
+  width: 100vw;
+  justify-content: space-between;
+  flex-direction: row;
 }
 
-a  {
-    color: black !important;
+a {
+  color: black !important;
 }
 
 .links {
-    display: flex;
-    align-items: center;
-    width: 50%;
-    justify-content: space-around;
-    flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  width: 50%;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .logo {
-    display: flex;
-    width: 50%;
-    justify-content: flex-end;
+  display: flex;
+  width: 50%;
+  justify-content: flex-end;
 }
 
 .btn {
-    border-color: lightsteelblue;
+  border-color: lightsteelblue;
 }
 
 .content {
-    display: flex;
-    width: 100vw;
+  display: flex;
+  width: 100vw;
+}
+
+.quoteContainer {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  align-items: center;
+}
+
+.innerContainer {
+  text-align: center;
+}
+
+.imgContainer {
+  display: flex;
+  width: 50%;
+  justify-content: flex-end;
+  height: 100%;
+}
+
+button {
+  background-color: lightsteelblue;
+  margin-top: 10px;
 }
