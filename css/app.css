@@ -1,7 +1,16 @@
+.body {
+    overflow: hidden;
+}
+
 .navbar {
     background-color: lightsteelblue;
     padding: 0;
     
+}
+
+.navbar-brand {
+    display: flex;
+    justify-content: flex-end;
 }
 
 .navbar-nav {
@@ -19,11 +28,20 @@ a  {
     align-items: center;
     width: 50%;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .logo {
     display: flex;
     width: 50%;
     justify-content: flex-end;
+}
 
+.btn {
+    border-color: lightsteelblue;
+}
+
+.content {
+    display: flex;
+    width: 100vw;
 }
