@@ -1,64 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Magnolia Cleaning Services</title>
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="./css/app.css" />
-  </head>
-  <body>
-    <nav class="navbar">
-      <div class="navbar-nav">
-        <div class="links">
-          <a class="btn btn-outline-light" href="#">Home</a>
-          <a class=" btn btn-outline-light" href="#">Cleaning Services</a>
-          <a class=" btn btn-outline-light" href="#">About Us</a>
-          <a class=" btn btn-outline-light" href="#">Reviews</a>
-          <a class=" btn btn-outline-light" href="#">Request a Quote</a>
-        </div>
-        <div class="logo">
-          <a class="navbar-brand" href="#">
-            <img
-              src="./img/logo1.png"
-              alt="Magnolia Cleaning services Logo"
-              width="50%"
-            />
-          </a>
-        </div>
-      </div>
-    </nav>
 
-    <div class="content">
-      <div class="quoteContainer">
-        <div class="innerContainer">
-          <h1>
-            Magnolia Cleaning Services
-          </h1>
-          <aside class="innerContainer">
-            Commercial and Residential Cleaning Service in Seguin Texas <br />
-            Open today until 8:00 PM
-          </aside>
-          <button class="btn btn-light">
-            Get Quote
-          </button>
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Magnolia Cleaning Services</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./css/app.css" />
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="navbar-nav">
+      <div class="links">
+        <a class="btn btn-outline-light" href="#">Home</a>
+        <a class=" btn btn-outline-light" href="#">Cleaning Services</a>
+        <a class=" btn btn-outline-light" href="#">About Us</a>
+        <a class=" btn btn-outline-light" href="#">Reviews</a>
+        <a class=" btn btn-outline-light" href="#">Request a Quote</a>
       </div>
-      <div class="imgContainer">
-        <img src="./img/cleaning.jpg" alt="Hand holding cleaning supplies" width="100%" />
+      <div class="logo">
+        <a class="navbar-brand" href="#">
+          <img src="./img/logo1.png" alt="Magnolia Cleaning services Logo" width="50%" />
+        </a>
       </div>
     </div>
+  </nav>
 
-    <div class="coverageMap">
-      <iframe src="https://www.google.com/maps/d/u/0/embed?mid=12Hf7wiFUWhVeIeZ--c69ctym4I7JxIND" width="640" height="480" style="border: none;"></iframe>
+  <div class="content">
+    <div class="quoteContainer">
+      <div class="innerContainer">
+        <h1>
+          Magnolia Cleaning Services
+        </h1>
+        <aside class="innerContainer">
+          Commercial and Residential Cleaning Service in Seguin Texas <br />
+          Open today until 8:00 PM
+        </aside>
+        <button class="btn btn-light">
+          Get Quote
+        </button>
+      </div>
     </div>
+    <div class="imgContainer">
+      <img src="./img/cleaning.jpg" alt="Hand holding cleaning supplies" width="100%" height="100%" />
+    </div>
+  </div>
 
-    
-  </body>
+  <div class="coverageMap">
+    <img src="./img/CountyMap.png" alt="Map showing 3 supported counties" width="50%%" height="100%" />
+    <div class="contactForm">
+      <form>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+            placeholder="Enter email">
+          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="./js/index.js"></script>
+</body>
+
 </html>

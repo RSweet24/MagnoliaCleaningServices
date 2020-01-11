@@ -67,3 +67,19 @@ button {
   background-color: lightsteelblue;
   margin-top: 10px;
 }
+
+.i4ewOd-pzNkMb-haAclf {
+  display: none !important;
+}
+
+.coverageMap {
+  width: 100vw;
+  display: flex;
+}
+
+.contactForm {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
